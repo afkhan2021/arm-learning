@@ -1,13 +1,10 @@
 name: armTemplateDeployment
 
 on:
-  push:
-    branches:
-      - main
+   workflow_dispatch:
 
 jobs:
-  deployStaging:
-    name: Deploy to Staging
+  armDeploy:
     runs-on: ubuntu-latest
 
     steps:
