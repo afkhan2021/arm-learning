@@ -37,7 +37,7 @@ jobs:
           template: ./arm-templates/storageaccount.json
           parameters:
             sku=Standard_LRS
-            storageAccountName=globostg002
+            storageAccountName=globostg002ariflab
             location="Canada Central"
           deploymentMode: incremental
 
